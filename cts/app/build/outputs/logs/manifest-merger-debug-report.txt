@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml
+		INJECTED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml
+		INJECTED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml
+		INJECTED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:7:22-73
+application
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:9:5-36:19
+MERGED from [com.ibm.mobile.foundation:ibmmobilefirstplatformfoundation:8.0.2017062702] /home/karlbiron/.android/build-cache/0368c9ec34078c48f72c3d1cafc405889369dcf3/output/AndroidManifest.xml:11:5-12:19
+MERGED from [com.ibm.mobile.foundation:ibmmobilefirstplatformfoundationjsonstore:8.0.2017052514] /home/karlbiron/.android/build-cache/168034a00d6a5d4e553600b294ee3c9cc89cf297/output/AndroidManifest.xml:12:5-15:19
+MERGED from [com.android.support:design:23.0.1] /home/karlbiron/.android/build-cache/26fafd6c2171871b1d60b7e58b03ae4c374d95d9/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/karlbiron/.android/build-cache/2d7749a06f609d0b132343108656736d07ae1b4d/output/AndroidManifest.xml:22:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:2.3.0] /home/karlbiron/.android/build-cache/f819cad094816abb33ac374655aac76f140cdf04/output/AndroidManifest.xml:28:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /home/karlbiron/.android/build-cache/637d3e8f3b3efff39bdb4bce7faf1aea7c8c7218/output/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:12:9-41
+	android:supportsRtl
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:13:9-35
+	android:allowBackup
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:11:9-43
+	android:theme
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:14:9-40
+activity#ae.ac.ud.ceit.cts.SplashScreen
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:theme
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:17:13-53
+	android:name
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:16:13-40
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:20:17-76
+	android:name
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:21:17-86
+	android:name
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:21:27-74
+activity#ae.ac.ud.ceit.cts.login.LoginActivity
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:24:9-26:20
+	android:name
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:24:19-54
+activity#ae.ac.ud.ceit.cts.MainActivity
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:27:9-33:20
+	android:name
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:27:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:28:13-32:29
+category#android.intent.category.DEFAULT
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:31:17-76
+	android:name
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:31:27-73
+activity#ae.ac.ud.ceit.cts.SingleCrimeView
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:34:9-62
+	android:name
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:34:19-50
+activity#com.worklight.wlclient.ui.UIActivity
+ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:35:9-73
+	android:name
+		ADDED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml:35:19-70
+uses-sdk
+INJECTED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.ibm.mobile.foundation:ibmmobilefirstplatformfoundation:8.0.2017062702] /home/karlbiron/.android/build-cache/0368c9ec34078c48f72c3d1cafc405889369dcf3/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.ibm.mobile.foundation:ibmmobilefirstplatformfoundationjsonstore:8.0.2017052514] /home/karlbiron/.android/build-cache/168034a00d6a5d4e553600b294ee3c9cc89cf297/output/AndroidManifest.xml:7:5-10:41
+MERGED from [com.android.support:design:23.0.1] /home/karlbiron/.android/build-cache/26fafd6c2171871b1d60b7e58b03ae4c374d95d9/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/karlbiron/.android/build-cache/2d7749a06f609d0b132343108656736d07ae1b4d/output/AndroidManifest.xml:20:5-43
+MERGED from [com.wdullaer:materialdatetimepicker:2.3.0] /home/karlbiron/.android/build-cache/f819cad094816abb33ac374655aac76f140cdf04/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:23.1.1] /home/karlbiron/.android/build-cache/637d3e8f3b3efff39bdb4bce7faf1aea7c8c7218/output/AndroidManifest.xml:20:5-43
+	android:maxSdkVersion
+		ADDED from [com.ibm.mobile.foundation:ibmmobilefirstplatformfoundationjsonstore:8.0.2017052514] /home/karlbiron/.android/build-cache/168034a00d6a5d4e553600b294ee3c9cc89cf297/output/AndroidManifest.xml:8:9-35
+	android:targetSdkVersion
+		INJECTED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml
+		INJECTED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml
+		INJECTED from /home/karlbiron/AndroidStudioProjects/cts/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [com.wdullaer:materialdatetimepicker:2.3.0] /home/karlbiron/.android/build-cache/f819cad094816abb33ac374655aac76f140cdf04/output/AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [com.wdullaer:materialdatetimepicker:2.3.0] /home/karlbiron/.android/build-cache/f819cad094816abb33ac374655aac76f140cdf04/output/AndroidManifest.xml:26:22-63
