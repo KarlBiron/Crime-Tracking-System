@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="ibmmobilefirstplatformfoundation-8.0.2017040512">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/90a7250f56889c3ec6c906c0bdb5a8bf4de0562a/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/90a7250f56889c3ec6c906c0bdb5a8bf4de0562a/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/90a7250f56889c3ec6c906c0bdb5a8bf4de0562a/output/jars/libs/okio-1.6.0.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/90a7250f56889c3ec6c906c0bdb5a8bf4de0562a/output/jars/libs/okhttp-2.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.mobile.foundation/ibmmobilefirstplatformfoundation/8.0.2017040512/8f0a5daaff163ece59051f5e21140e548eb0804b/ibmmobilefirstplatformfoundation-8.0.2017040512-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
