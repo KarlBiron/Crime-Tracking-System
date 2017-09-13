@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="5dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/icon_list"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_feeds" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon_list"
+
+            android:layout_marginTop="2dp"
+            android:text="@string/title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <!--  <TextView
+              android:id="@+id/subtitle"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/title"
+              android:layout_marginLeft="5dp"
+              android:layout_toRightOf="@+id/icon_list"
+              android:text="@string/subtitle"
+              android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+
+        <!--   <TextView
+              android:text="TextView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignTop="@+id/subtitle"
+              android:layout_alignParentEnd="true"
+              android:textStyle="italic"
+              android:id="@+id/lastaccess" /> -->
+
+        <TextView
+            android:text="Detail >"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+
+            android:textAlignment="viewEnd"
+            android:textStyle="normal|italic"
+            android:clickable="true"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/title"
+            android:layout_marginStart="62dp" />
+
+    </RelativeLayout>
+</LinearLayout>

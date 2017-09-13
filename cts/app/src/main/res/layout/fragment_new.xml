@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+               xmlns:app="http://schemas.android.com/apk/res-auto"
+               xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary"
+   >
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal|center"
+        android:text="Upload New Crime"
+        android:textColor="@color/accent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:background="@android:drawable/title_bar"
+        android:layout_height="40dp"
+        android:fadingEdge="horizontal|vertical"
+        android:freezesText="false"
+        android:hapticFeedbackEnabled="false"
+        android:hyphenationFrequency="none"
+        android:textAllCaps="false"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+        <!-- Here you put the rest of your current view-->
+     <!--   <TextView
+            android:text="Reference Number:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            />
+
+        <EditText
+            android:id="@+id/editReference"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="text"
+            android:hint="Enter Reference Number:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:background="@drawable/edittext"
+            android:textSize="22sp"
+            android:textAlignment="viewStart"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            />
+         -->
+        <TextView
+            android:text="Crime Date:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="casual" />
+        <EditText
+
+            android:id="@+id/editTextDate"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="text"
+            android:hint="Enter Date:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:background="@drawable/edittext"
+            android:textSize="22sp"
+            android:textAlignment="viewStart"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            />
+
+        <TextView
+            android:text="Crime Time:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="casual" />
+        <EditText
+
+            android:id="@+id/editTextTime"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="text"
+            android:hint="Enter Time:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:background="@drawable/edittext"
+            android:textSize="22sp"
+            android:textAlignment="viewStart"
+            android:paddingLeft="@dimen/activity_horizontal_margin" />
+
+        <TextView
+            android:text="Location:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="casual" />
+
+        <EditText
+            android:id="@+id/editLocation"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="text"
+            android:hint="Enter Location:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:background="@drawable/edittext"
+            android:textSize="22sp"
+            android:textAlignment="viewStart"
+            android:paddingLeft="@dimen/activity_horizontal_margin" />
+
+        <TextView
+            android:text="Victims:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="casual" />
+
+        <EditText
+            android:id="@+id/editVictims"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+            android:inputType="text"
+            android:hint="Enter Victims:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:background="@drawable/edittext"
+            android:textSize="22sp"
+            android:textAlignment="viewStart"
+            android:paddingLeft="@dimen/activity_horizontal_margin"/>
+        <TextView
+            android:text="Suspects:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="casual" />
+
+        <EditText
+            android:id="@+id/editSuspects"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="text"
+            android:hint="Enter Suspects:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:background="@drawable/edittext"
+            android:textSize="22sp"
+            android:textAlignment="viewStart"
+            android:paddingLeft="@dimen/activity_horizontal_margin" />
+        <TextView
+            android:text="Evidents Found:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="casual" />
+
+        <EditText
+            android:id="@+id/editEvidens"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:inputType="text"
+            android:hint="Enter Evidents:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:background="@drawable/edittext"
+            android:textSize="22sp"
+            android:textAlignment="viewStart"
+            android:paddingLeft="@dimen/activity_horizontal_margin" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="22dp"
+                    android:background="@color/btn_blue"
+                    android:text="Save"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:id="@+id/btn_save"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="22dp"
+                    android:background="@color/btn_blue"
+                    android:text="Clear"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:onClick=""
+
+                    android:layout_marginEnd="25dp"
+
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/btn_clear"
+                   />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

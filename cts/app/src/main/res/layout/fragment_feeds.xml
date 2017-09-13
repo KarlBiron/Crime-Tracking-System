@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal|center"
+        android:text="Newsfeed(Newly Updated Crimes)"
+        android:textColor="@color/accent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:background="@android:drawable/title_bar"
+        android:layout_height="40dp"
+        android:fadingEdge="horizontal|vertical"
+        android:freezesText="false"
+        android:hapticFeedbackEnabled="false"
+        android:hyphenationFrequency="none"
+        android:textAllCaps="false"/>
+
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            android:id="@+id/feedslist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:paddingTop="2dp"
+            />
+
+    </FrameLayout>
+</LinearLayout>

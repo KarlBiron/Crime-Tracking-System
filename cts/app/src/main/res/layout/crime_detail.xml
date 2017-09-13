@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_horizontal"
+        android:text="Crime Management System"
+        android:fontFamily="casual"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text=" Crime Details "
+        android:textColor="#fff"
+        android:background="@color/btn_blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/child_layout"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/even">
+    <TextView
+        android:id="@+id/referencelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reference Number: "
+        android:textStyle="normal|bold"/>
+
+    <TextView
+        android:id="@+id/detailReference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/referencelabel"
+        android:background="@color/even"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/date_timelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/referencelabel"
+        android:text="Crime Date and Time:- "
+        android:background="@color/odd"
+        android:textStyle="normal|bold"/>
+
+    <TextView
+        android:id="@+id/detaildate_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/referencelabel"
+        android:layout_toRightOf="@+id/date_timelabel"
+        android:background="@color/odd"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/even">
+    <TextView
+        android:id="@+id/createdlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_timelabel"
+        android:text=" Uploading Date and Time:"
+        android:background="@color/even"
+        android:textStyle="normal|bold"/>
+
+    <TextView
+        android:id="@+id/detailcreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_timelabel"
+        android:layout_toRightOf="@+id/createdlabel"
+        android:background="@color/even"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/locationlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createdlabel"
+        android:text="Location"
+        android:background="@color/odd"
+        android:textStyle="normal|bold"/>
+
+    <TextView
+        android:id="@+id/detaillocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createdlabel"
+        android:layout_toRightOf="@+id/locationlabel"
+        android:background="@color/odd"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/even">
+
+    <TextView
+        android:id="@+id/victimslabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationlabel"
+        android:text="Victims' Names"
+        android:background="@color/even"
+        android:textStyle="normal|bold"/>
+
+    <TextView
+        android:id="@+id/detailvictims"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationlabel"
+        android:layout_toRightOf="@+id/victimslabel"
+        android:background="@color/even"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/suspectslabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/victimslabel"
+        android:text="Suspects:"
+        android:background="@color/odd"
+        android:textStyle="normal|bold"/>
+
+    <TextView
+        android:id="@+id/detailsuspects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suspectslabel"
+        android:layout_toRightOf="@+id/suspectslabel"
+        android:background="@color/odd"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/even">
+    <TextView
+        android:id="@+id/evidncelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suspectslabel"
+        android:text="Evidnce Found:"
+        android:background="@color/even"
+        android:textStyle="normal|bold"/>
+
+    <TextView
+        android:id="@+id/detailevidnce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suspectslabel"
+        android:layout_toRightOf="@+id/evidncelabel"
+        android:background="@color/even"/>
+
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Related Crimes "
+        android:textColor="#fff"
+        android:background="@color/btn_blue"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/child_layout"
+        />
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            android:id="@+id/feedslist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:paddingTop="2dp"
+            />
+
+    </FrameLayout>
+</LinearLayout>
