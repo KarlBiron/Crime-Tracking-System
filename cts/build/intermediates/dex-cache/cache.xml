@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4bfe4c99fdce4e510d23b4a11a519532fcf833e1">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6432e467a0bbbaf92a185298d0a6a5726b8715be/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karlbiron/.android/build-cache/f819cad094816abb33ac374655aac76f140cdf04/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a95fd025efad7b05be3d29737bec37652e0fdb9e">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/pre-dexed/debug/classes_975bc6d024f94f008a824827bf0f1606a0194640.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karlbiron/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/pre-dexed/debug/okio-1.9.0_654636e2d0a1f4546a9fb8fa841e941a0024f026.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karlbiron/.android/build-cache/2d7749a06f609d0b132343108656736d07ae1b4d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/pre-dexed/debug/classes_9736e4f515ccb389bbbe633b488257a8aa9168e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karlbiron/.android/build-cache/637d3e8f3b3efff39bdb4bce7faf1aea7c8c7218/output/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_5d9767c01e433d9b81a8edcf429d23bdca0677a0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/karlbiron/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-urlconnection-3.4.1_e6878fbb81ffc8f4c4129b3705a589dfd55dbc95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/karlbiron/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_654636e2d0a1f4546a9fb8fa841e941a0024f026/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karlbiron/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_e6878fbb81ffc8f4c4129b3705a589dfd55dbc95.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_900745fe01cee9790555f603aab5b36b09c3901e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karlbiron/.android/build-cache/168034a00d6a5d4e553600b294ee3c9cc89cf297/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="13c8524212c3dc20b6f61fa0c7ec8a397f3c698e">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/pre-dexed/debug/classes_9eae21d1918a4dc3174fb86e697e1aa4ff8d5614.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karlbiron/.android/build-cache/637d3e8f3b3efff39bdb4bce7faf1aea7c8c7218/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/pre-dexed/debug/classes_ae38af56408407e6c438deb6809d6278d14278b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karlbiron/.android/build-cache/168034a00d6a5d4e553600b294ee3c9cc89cf297/output/jars/libs/sqlcipher.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5760e129fffa9b81ffa42184a736bbaf924dcfdd">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/pre-dexed/debug/sqlcipher_ae9b44fdc851512e440cb14e25d0e517ee39a071.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/karlbiron/.android/build-cache/168034a00d6a5d4e553600b294ee3c9cc89cf297/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="13c8524212c3dc20b6f61fa0c7ec8a397f3c698e">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9eae21d1918a4dc3174fb86e697e1aa4ff8d5614/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/karlbiron/.android/build-cache/0368c9ec34078c48f72c3d1cafc405889369dcf3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53fc2c314f96b3f82f386063316c91278423529a">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8ee6e29ced1623bb3d4b49189de39847eebab1cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/karlbiron/.android/build-cache/168034a00d6a5d4e553600b294ee3c9cc89cf297/output/jars/libs/sqlcipher.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5760e129fffa9b81ffa42184a736bbaf924dcfdd">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/transforms/dex/debug/folders/1000/10/sqlcipher_ae9b44fdc851512e440cb14e25d0e517ee39a071/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karlbiron/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_56b3a847c0b7b777c6c53242b04248349eac4d5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karlbiron/.android/build-cache/26fafd6c2171871b1d60b7e58b03ae4c374d95d9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/pre-dexed/debug/classes_bb409a8f9980051e9c7e80038be14a5f2b782dff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karlbiron/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_eb15540eaeaaafc892e5cd5009675243b0eda25e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karlbiron/.android/build-cache/0368c9ec34078c48f72c3d1cafc405889369dcf3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53fc2c314f96b3f82f386063316c91278423529a">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/pre-dexed/debug/classes_8ee6e29ced1623bb3d4b49189de39847eebab1cf.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/karlbiron/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/home/karlbiron/AndroidStudioProjects/cts/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.1_56b3a847c0b7b777c6c53242b04248349eac4d5e/classes.dex" />
+    </item>
+
+</items>
